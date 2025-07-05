@@ -1,4 +1,4 @@
-# AI Chatbot for FAQs
+## AI Chatbot for FAQs
 A smart, visually appealing chatbot that answers Frequently Asked Questions (FAQs) using Google's Gemini 2.0 Flash model and Streamlit. This project combines the power of generative AI with a sleek UI to deliver fast, accurate responses in real time.
 ##  Project Overview
 
@@ -23,21 +23,21 @@ This chatbot allows users to input any frequently asked question, processes it t
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
 
-Install dependencies
+## Install dependencies
 
 pip install -r requirements.txt
 
-Run the app
+## Run the app
 
 streamlit run app.py
 
- How It Works
+## How It Works
 User Input: The user enters a question in the text box.
 API Call: The question is sent to get_gemini_response() which connects to the Gemini model.
 Response Generation: The model generates a natural-language answer.
 UI Display: The response is shown in an animated, styled interface.
- Screenshots
+## Screenshots
  ![image](https://github.com/user-attachments/assets/4f61f4ee-ae84-4338-ba7f-a65d219ae34e)
 
- Author
+## Author
  Pesala Govinda Charu Datta
